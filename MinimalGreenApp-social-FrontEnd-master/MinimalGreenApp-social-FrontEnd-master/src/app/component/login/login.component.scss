@@ -1,0 +1,45 @@
+.example-card {
+  max-width: 600px;
+  max-height: 700px;
+
+
+
+  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.09),
+  25px 35px 20px rgba(0, 0, 0, 0.09),
+  25px 30px 30px rgba(0, 0, 0, 0.09),
+  inset -20px -20px 25px rgba(255, 255, 255, 0.2);
+}
+
+mat-card-header{
+  margin: auto;
+  width: 90%;
+  margin-bottom: 5vh;
+}
+
+form{
+margin: auto;
+width: 90%;
+}
+
+.foot-form{
+  margin: auto;
+  width: 90%;
+}
+button{
+  width: 100%;
+  background-color: rgb(117, 174, 96) !important;
+  color: white !important;
+
+}
+
+.center-content{
+
+  text-align: -webkit-center;
+ // margin-left: 33vw;
+ // margin-right: 33vw;
+   margin-top: 30vh;
+}
+
+mat-form-field{
+  width: 100%
+};

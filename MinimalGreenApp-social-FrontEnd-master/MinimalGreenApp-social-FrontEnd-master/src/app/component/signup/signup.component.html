@@ -1,0 +1,52 @@
+<div class="center-content">
+
+  <mat-card class="example-card">
+
+    <mat-card-header>
+      <mat-card-title>Sign-Up</mat-card-title>
+    </mat-card-header>
+
+      <form [formGroup]="form" >
+
+        <mat-form-field appearance="outline">
+          <mat-label>Name</mat-label>
+          <input type="name" formControlName="name" matInput placeholder="your name">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Surname</mat-label>
+          <input type="lastname" formControlName="lastname" matInput placeholder="your lastname">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Username</mat-label>
+          <input type="username" formControlName="username" matInput placeholder="your username">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input type="email" formControlName="email" matInput placeholder="youremail@gmail.com">
+        </mat-form-field>
+
+
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input type="password" formControlName="password" matInput placeholder="password">
+        </mat-form-field>
+
+      </form>
+
+
+      <div class="foot-form" >
+        <button   mat-raised-button (click)="submit()"  >Register me!</button>
+        <h5 class="mt-3 ms-2 fw-normal"> If you already have an account,
+          <a type="submit" href="../login" style="color:rgb(117, 174, 96) ;" >Login!</a>
+        </h5>
+      </div>
+
+
+
+  </mat-card>
+
+
+</div>
